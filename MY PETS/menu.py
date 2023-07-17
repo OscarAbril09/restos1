@@ -5,7 +5,7 @@ if __name__ == '__main__':
     flag = True
     opcion = 0
     while flag:
-        os.system('clear')
+       # os.system('clear')
         print('*'*35)
         print(' ------ WELCOME MYPETS ------- ')
         print('1. GESTION DE VETERINARIO')
@@ -21,5 +21,6 @@ if __name__ == '__main__':
             if (opcionV == '1'):
                 os.system('clear')
                 myPet.addVeterinario()
-            
+            elif (opcionV == '2'):
+                myPet.shearVet()
  
