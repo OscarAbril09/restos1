@@ -2,10 +2,7 @@ import json
 import os.path
 
 veterinarios = [] 
-file_path = 'MY PETS/data/veterinarios.json'
-
-def core():
-    
+file_path = 'MY PETS/data/veterinarios.json'    
 
 def addVeterinario():
    # global veterinarios  # Declarar la variable como global
